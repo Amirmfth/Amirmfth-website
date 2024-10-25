@@ -54,6 +54,11 @@ header h1 {
   font-size: 1.5rem;
   padding: 0 10px 0 0;
   margin-bottom: 15px;
+  text-shadow: 8px 8px 7px #14213D;
+  font-weight: 900;
+  font-family: "Raleway" , sans-serif;
+
+  font-style: italic;
 }
 
 .hamburger-menu {

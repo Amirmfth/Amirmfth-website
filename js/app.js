@@ -79,6 +79,8 @@ const navBtnHandler = (event) => {
   menuHandler();
 };
 
+showSection()
+
 checkBox.addEventListener("click", menuHandler);
 
 buttons.forEach((button) => {
