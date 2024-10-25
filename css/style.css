@@ -28,6 +28,7 @@ header {
 }
 
 .header-info {
+    width: 100%;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -38,8 +39,8 @@ header {
 
 .image-box {
   padding: 10px 10px 0 10px;
-  background-color: var(--color-gray);
-  border-right: 2px solid var(--color-text);
+  background-color: var(--color-primary);
+  /* border-right: 5px solid var(--color-primary); */
   border-radius: 0 0 0 15px;
 }
 
@@ -61,7 +62,7 @@ header h1 {
 
 .icons {
   margin-top: 30px;
-  display: flex;
+  display: none;
   padding: 0 10px 0 0;
   margin: 40px auto;
 }
@@ -70,7 +71,6 @@ header h1 {
   width: 25px;
   margin-left: 10px;
 }
-
 
 
 .navbar {
@@ -82,7 +82,7 @@ header h1 {
   height: 100%;
   right: 0;
   transition: all .2s ease-in;
-  padding-top: 110px;
+  padding-top: 60px;
   z-index: 10;
 }
 
@@ -95,6 +95,7 @@ nav button {
   height: 60px;
   margin-bottom: 20px;
   transition: all 0.2s ease-in;
+  display: none;
 }
 
 main {
