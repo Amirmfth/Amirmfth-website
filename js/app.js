@@ -70,6 +70,7 @@ const menuHandler = () => {
         btn.style.display = "none"
     })
     icons.style.display = "none"
+
   }
 };
 
