@@ -1,0 +1,108 @@
+@import url(./hamburger.css);
+@import url(./introduction.css);
+
+:root {
+  --color-text: #000000;
+  --color-primary: #14213d;
+  --color--secondary: #fca311;
+  --color-gray: #e5e5e5;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/Sprinkle.svg);
+}
+
+
+
+/* global-------------------------------------------------------------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: var(--color--secondary);
+  border-radius: 0 0 15px 0;
+}
+
+
+ 
+.image-box {
+  padding: 10px 10px 0 10px;
+  background-color: var(--color-gray);
+  border-right: 2px solid var(--color-text);
+  border-radius: 0 0 0 15px;
+}
+
+header img {
+  width: 65px;
+  border-radius: 20%;
+}
+
+header h1 {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  padding: 0 10px 0 0;
+  margin-bottom: 15px;
+}
+
+.hamburger-menu{
+    background-color: var(--color--secondary);
+}
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    padding: 0 10px 0 0;
+    margin:40px auto;
+}
+
+.icons img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+nav {
+    position: absolute;
+   display: flex; 
+   flex-direction: column;
+   background-color: #14213d;
+   width: 250px;
+   height: 100%;
+   right: -250px;
+   transition: all .4s ease-in;
+   padding-top: 110px;
+   z-index: 10;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    font-weight: 700;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+nav button:first-child {
+    background-color: var(--color--secondary);
+    color: var(--color-primary);
+}
+
+main{
+    z-index: 0;
+}

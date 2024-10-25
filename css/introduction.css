@@ -1,0 +1,30 @@
+:root {
+    --color-text: #000000;
+    --color-primary: #14213d;
+    --color--secondary: #fca311;
+    --color-gray: #e5e5e5;
+    --color-white: #ffffff;
+}
+
+.introduction {
+    width: 350px;
+    margin: 30px auto;
+}
+
+.my-story h3 {
+    color: var(--color-primary);
+    background-color: var(--color--secondary);
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.my-story p {
+    color: var(--color-text);
+    background-color: var(--color-gray);
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    line-height: 30px;
+    font-size: 1.2rem;
+
+}
