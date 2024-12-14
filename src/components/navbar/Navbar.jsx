@@ -1,5 +1,5 @@
 import NavButtons from "./NavButtons";
-import Navitems from "./navItems";
+import Navitems from "./NavItems";
 
 function Navbar() {
   return (

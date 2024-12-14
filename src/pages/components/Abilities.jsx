@@ -171,7 +171,6 @@ function Abilities() {
           </div>
         </div>
       </div>
-      <div className="h-screen"></div>
     </section>
   );
 }

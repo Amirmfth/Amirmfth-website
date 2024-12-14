@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="min-h-screen dark:bg-black dark:text-white">
       <Navbar />
-      {/* <div className="h-screen"></div> */}
       <HomePage />
     </div>
   );
