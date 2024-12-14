@@ -1,25 +1,44 @@
-import React from 'react'
+import React from "react";
 
 function Hero() {
   return (
-<section className="container flex flex-col mx-auto  space-y-5  md:flex-row  md:space-x-20">
-    {/* Name & profile Image */}
-<div className="flex flex-col py-4 space-y-2 md:space-y-4">
-    {/* Profile Image */}
-    <img src="" alt="" className="x-10 h-10 rounded-full" />
-    {/* Name */}
-    <h1 className="text-3xl font-semibold text-left md:text-6xl">Hello! I'm Amir.M.Fatahi</h1>
-</div>
-<div className="flex flex-col py-2 space-y-8">
-    <h2 className="text-2xl text-left md:text-5xl">A Website Developer based in Iran, Tehran.</h2>
-    <p className="text-gray-500 text-lg">Passionate creating SPA and fully functional websites</p>
-    <div className="flex space-x-4">
-        <button className="px-4 py-2 text-white bg-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-white dark:text-black ">Talk with me</button>
-        <button className="px-4 py-2 border border-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-black dark:text-white dark:border-white "><a href="#">See my work</a></button>
-    </div>
-</div>
-</section>
-  )
+    <section id="hero">
+      <div className="container flex flex-col mx-auto px-8 pt-60 pb-10 space-y-10  md:flex-row md:items-start md:space-y-0 md:space-x-20">
+        {/* Name & profile Image */}
+        <div className="flex flex-col space-y-8">
+          {/* Profile Image */}
+          <img
+            src="../../../assets/images/profile-image.jpg"
+            alt="profile"
+            className="w-16 rounded-full"
+          />
+          {/* Name */}
+          <h1 className="text-3xl font-semibold text-left md:text-6xl">
+            Hello! I'm Amir.M.Fatahi
+          </h1>
+        </div>
+        {/* description & buttons */}
+        <div className="flex flex-col space-y-8">
+          {/* Description */}
+          <h2 className="text-2xl text-left md:text-5xl">
+            A React.js Developer based in Iran, Tehran.
+          </h2>
+          <p className="opacity-60 text-lg ">
+            Passionate creating SPA and fully functional websites
+          </p>
+          {/* Buttons */}
+          <div className="flex space-x-4">
+            <button className="px-4 py-2 text-white bg-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-white dark:text-black ">
+              Talk with me
+            </button>
+            <button className="px-4 py-2 border border-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-black dark:text-white dark:border-white ">
+              <a href="#">See my work</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Hero
+export default Hero;
