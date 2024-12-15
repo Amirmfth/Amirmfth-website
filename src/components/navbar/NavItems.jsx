@@ -5,7 +5,7 @@ function Navitems() {
     <div className="flex items-center space-x-10 ">
       {/* Logo */}
       <div className="flex items-center justify-center ml-6 ">
-        <img src="../../../assets/images/my-website-logo-webp.webp" alt="logo" className="w-12" />
+        <img src="/assets/images/my-website-logo-webp.webp" alt="logo" className="w-12" />
       </div>
       {/* Items container */}
       <div className="hidden space-x-8 md:flex text-lg ">

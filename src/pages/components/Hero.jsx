@@ -8,7 +8,7 @@ function Hero() {
         <div className="flex flex-col space-y-8">
           {/* Profile Image */}
           <img
-            src="../../../assets/images/profile-image.jpg"
+            src="/assets/images/profile-image.jpg"
             alt="profile"
             className="w-16 rounded-full"
           />

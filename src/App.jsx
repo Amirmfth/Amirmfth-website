@@ -1,14 +1,14 @@
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./pages/HomePage";
 import { useEffect } from "react";
-
 
 function App() {
   useEffect(() => {
     Aos.init({
       once: true,
+      duration: 600,
     });
   }, []);
 

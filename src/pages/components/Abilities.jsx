@@ -56,15 +56,15 @@ function Abilities() {
               {/* Image container */}
               <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto bg-gradient-to-br from-gray-200 to-slate-500  rounded-2xl  md:w-1/2">
                 <img
-                  src="../../../assets/images/graph-ql-blog-home.png"
+                  src="/assets/images/graph-ql-blog-home.png"
                   alt="graph-ql"
                   className=" h-full rounded-md"
                 />
               </div>
               <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto bg-gradient-to-br from-gray-200 to-slate-500  rounded-2xl  md:w-1/2">
                 <img
-                  src="../../../assets/images/store-app-home.png"
-                  alt="graph-ql"
+                  src="/assets/images/store-app-home.png"
+                  alt="store-app"
                   className=" h-full rounded-md"
                 />
               </div>
@@ -101,14 +101,14 @@ function Abilities() {
               {/* Image container */}
               <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto bg-gradient-to-br from-gray-200 to-slate-500  rounded-2xl  md:w-1/2">
                 <img
-                  src="../../../assets/images/crypto-app-home.png"
-                  alt="graph-ql"
+                  src="/assets/images/crypto-app-home.png"
+                  alt="crypto"
                   className=" h-full rounded-md"
                 />
               </div>
               <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto bg-gradient-to-br from-gray-200 to-slate-500  rounded-2xl  md:w-1/2">
                 <img
-                  src="../../../assets/images/graph-ql-blog-home.png"
+                  src="/assets/images/graph-ql-blog-home.png"
                   alt="graph-ql"
                   className=" h-full rounded-md"
                 />
@@ -145,24 +145,24 @@ function Abilities() {
               {/* Image container */}
               <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto space-x-4 bg-gradient-to-br  from-gray-200 to-slate-500  rounded-2xl  md:w-1/2">
                 <img
-                  src="../../../assets/images/bookmark-home-desktop.png"
-                  alt="graph-ql"
+                  src="/assets/images/bookmark-home-desktop.png"
+                  alt="bookmark"
                   className=" w-4/6 h-full rounded-md"
                 />
                 <img
-                  src="../../../assets/images/bookmark-home-mobile.png"
-                  alt="graph-ql"
+                  src="/assets/images/bookmark-home-mobile.png"
+                  alt="bookmark"
                   className=" h-full rounded-md"
                 />
               </div>
               <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto space-x-4 bg-gradient-to-br from-gray-200 to-slate-500  rounded-2xl  md:w-1/2">
                 <img
-                  src="../../../assets/images/loopstudio-home-desktop.png"
-                  alt="graph-ql"
+                  src="/assets/images/loopstudio-home-desktop.png"
+                  alt="loopstudio"
                   className=" w-4/6 h-full  rounded-md "
                 />
                 <img
-                  src="../../../assets/images/loopstudio-home-mobile.png"
+                  src="/assets/images/loopstudio-home-mobile.png"
                   alt="graph-ql"
                   className=" h-full rounded-md"
                 />
