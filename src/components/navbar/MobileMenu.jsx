@@ -48,7 +48,10 @@ function MobileMenu({ openMenu }) {
         </a>
       </div>
       {/* TimeBox */}
+      <div className="flex w-full flex-col justify-between">
+      <p className="text-left opacity-60">Tehran, Iran</p>
       <TimeBox />
+    </div>
       {/* Buttons */}
       <div className="flex  w-full justify-between items-center px-2 py-4 rounded-2xl border-2 border-black dark:border-white">
         <SwitchThemeBtn />

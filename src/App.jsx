@@ -1,8 +1,8 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Navbar from "./components/navbar/Navbar";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/home-page/HomePage";
 import { useEffect } from "react";
+import Layout from "./layouts/Layout";
 
 function App() {
   useEffect(() => {
@@ -14,8 +14,9 @@ function App() {
 
   return (
     <div className="min-h-screen dark:bg-black dark:text-white">
-      <Navbar />
-      <HomePage />
+      <Layout>
+        <HomePage />
+      </Layout>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function TimeBox() {
-    const [timeBox, setTimeBox] = useState("");
+  const [timeBox, setTimeBox] = useState("");
 
   // effects
   useEffect(() => {
@@ -21,11 +21,10 @@ function TimeBox() {
     }, 1000);
   };
   return (
-    <div className="flex w-full flex-col justify-between">
-    <p className="text-left opacity-60">Tehran, Iran</p>
-    <div className="text-sm font-semibold">{timeBox}</div>
-  </div>
-  )
+  
+      <div className="text-sm font-semibold">{timeBox}</div>
+    
+  );
 }
 
-export default TimeBox
+export default TimeBox;
