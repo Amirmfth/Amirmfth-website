@@ -32,23 +32,29 @@ function Abilities() {
               data-aos="fade-up"
               className="flex flex-col space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:justify-between md:items-center"
             >
-              {/* Icon */}
-              <div className="flex items-center justify-center w-fit h-fit bg-white rounded-full p-3 dark:bg-dark-gray brightness-125">
-                <FontAwesomeIcon icon={faDisplay} />
+              {/* Title & icon container */}
+              <div className="flex flex-col w-full space-y-6 md:space-x-8 md:w-1/2 md:flex-row md:space-y-0">
+                {/* Icon */}
+                <div className="flex items-center justify-center w-fit h-fit bg-white rounded-full p-3 dark:bg-dark-gray brightness-125">
+                  <FontAwesomeIcon icon={faDisplay} />
+                </div>
+                {/* title */}
+                <h2 className="text-2xl font-semibold text-left md:text-3xl">
+                  Single page applications
+                </h2>
               </div>
-              {/* title */}
-              <h2 className="text-2xl font-semibold text-left md:text-3xl">
-                Single page applications
-              </h2>
-              {/* Text */}
-              <p className="max-w-md  opacity-60 text-md text-left md:pl-12 ">
-                Fully functional SPA development. Easily navigate through pages
-                with no need to reload. The amazing UX can give your audiance a
-                better experience.
-              </p>
-              {/* Icon */}
-              <div className="flex items-center justify-center rounded-full h-fit w-fit p-2 border border-black dark:border-white">
-                <FontAwesomeIcon icon={faArrowDown} />
+              {/* Text & icon container */}
+              <div className="flex flex-col w-full space-y-6 md:justify-between md:w-1/2 md:flex-row">
+                {/* Text */}
+                <p className="max-w-md pr-6 opacity-60 text-md text-left  ">
+                  Fully functional SPA development. Easily navigate through
+                  pages with no need to reload. The amazing UX can give your
+                  audiance a better experience.
+                </p>
+                {/* Icon */}
+                <div className="flex items-center justify-center rounded-full h-fit w-fit p-2 border border-black dark:border-white">
+                  <FontAwesomeIcon icon={faArrowDown} />
+                </div>
               </div>
             </div>
             {/* Content */}
@@ -77,6 +83,8 @@ function Abilities() {
               data-aos="fade-up"
               className="flex flex-col space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:justify-between md:items-center"
             >
+              {/* Title & icon container */}
+              <div className="flex flex-col w-full space-y-6 md:space-x-8 md:w-1/2 md:flex-row md:space-y-0">
               {/* Icon */}
               <div className="flex items-center justify-center w-fit h-fit bg-white rounded-full p-3 dark:bg-dark-gray brightness-125">
                 <FontAwesomeIcon icon={faServer} />
@@ -85,8 +93,11 @@ function Abilities() {
               <h2 className="text-2xl font-semibold text-left md:text-3xl">
                 Fluent connection to server
               </h2>
+              </div>
+              {/* Text & icon container */}
+              <div className="flex flex-col w-full space-y-6 md:justify-between md:w-1/2 md:flex-row">
               {/* Text */}
-              <p className="max-w-md opacity-60 text-md text-left md:pl-12 ">
+              <p className="max-w-md pr-6 opacity-60 text-md text-left">
                 Keep your website update with stable connection to servers with
                 GraphQL or REST apis. Seamless and quick access to your
                 database.
@@ -94,6 +105,8 @@ function Abilities() {
               {/* Icon */}
               <div className="flex items-center justify-center rounded-full h-fit w-fit p-2 border border-black dark:border-white">
                 <FontAwesomeIcon icon={faArrowDown} />
+              </div>
+              
               </div>
             </div>
             {/* Content */}
@@ -122,6 +135,8 @@ function Abilities() {
               data-aos="fade-up"
               className="flex flex-col space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:justify-between md:items-center"
             >
+              {/* Title & icon container */}
+              <div className="flex flex-col w-full space-y-6 md:space-x-8 md:w-1/2 md:flex-row md:space-y-0">
               {/* Icon */}
               <div className="flex items-center justify-center w-fit h-fit bg-white rounded-full p-3 dark:bg-dark-gray brightness-125">
                 <FontAwesomeIcon icon={faWindowRestore} />
@@ -130,14 +145,18 @@ function Abilities() {
               <h2 className="text-2xl font-semibold text-left md:text-3xl">
                 Completely responsive web pages
               </h2>
+              </div>
+              {/* Text & icon container */}
+              <div className="flex flex-col w-full space-y-6 md:justify-between md:w-1/2 md:flex-row">
               {/* Text */}
-              <p className="max-w-md opacity-60 text-md text-left md:pl-12 ">
+              <p className="max-w-md pr-6 opacity-60 text-md text-left  ">
                 Make your websites responsive to any screen. Have a compatible
                 website for any user. Apply mobile-first design to your website.
               </p>
               {/* Icon */}
               <div className="flex items-center justify-center rounded-full h-fit w-fit p-2 border border-black dark:border-white">
                 <FontAwesomeIcon icon={faArrowDown} />
+              </div> 
               </div>
             </div>
             {/* Content */}
