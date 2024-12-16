@@ -1,8 +1,13 @@
+// Hooks
+import { useEffect } from "react";
+// Libraries
 import Aos from "aos";
 import "aos/dist/aos.css";
-import HomePage from "./pages/home-page/HomePage";
-import { useEffect } from "react";
+// Layout
 import Layout from "./layouts/Layout";
+// router
+import { BrowserRouter } from "react-router-dom";
+import Router from "./router/Router";
 
 function App() {
   useEffect(() => {
@@ -14,9 +19,11 @@ function App() {
 
   return (
     <div className="min-h-screen dark:bg-black dark:text-white">
+      <BrowserRouter>
       <Layout>
-        <HomePage />
+       <Router/>
       </Layout>
+      </BrowserRouter>
     </div>
   );
 }
