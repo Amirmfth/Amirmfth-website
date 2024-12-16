@@ -6,7 +6,7 @@ import Abilities from "./components/Abilities";
 
 function HomePage() {
   return (
-    <div>
+    <div className="pt-32 md:pt-60">
       <Hero />
       <EduWork />
       <Abilities />
