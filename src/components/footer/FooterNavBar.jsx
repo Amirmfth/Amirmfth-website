@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function FooterNavBar() {
   return (
@@ -12,7 +13,7 @@ function FooterNavBar() {
       <div className="flex flex-col text-lg space-y-6 items-center md:flex-row md:space-y-0 md:space-x-12 ">
         {/* Item 1 */}
         <div className="group">
-          <a href="#">Home</a>
+          <Link to={"/home"}>Home</Link>
           <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
         </div>
         {/* Item 2 */}
@@ -22,7 +23,7 @@ function FooterNavBar() {
         </div>
         {/* Item 3 */}
         <div className="group">
-          <a href="#">Services</a>
+          <Link to={"/services"}>Services</Link>
           <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
         </div>
         {/* Item 4 */}

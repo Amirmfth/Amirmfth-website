@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navitems() {
   return (
@@ -11,7 +12,7 @@ function Navitems() {
       <div className="hidden space-x-8 md:flex text-lg ">
       {/* Item 1 */}
       <div className="group">
-        <a href="#">Home</a>
+        <Link to={"/home"} >Home</Link>
         <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
       </div>
       {/* Item 2 */}
@@ -21,7 +22,7 @@ function Navitems() {
       </div>
       {/* Item 3 */}
       <div className="group">
-        <a href="#">Services</a>
+      <Link to={"/services"} >Services</Link>
         <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
       </div>
       {/* Item 4 */}

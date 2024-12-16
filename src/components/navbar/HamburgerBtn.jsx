@@ -1,23 +1,12 @@
-import { useEffect, useRef } from "react";
 import styles from "./HamburgerBtn.module.css";
 
-function HamburgerBtn({ setOpenMenu }) {
-  const bodyElm = document.querySelector("body")
-  const hamburgerBtn = useRef(null);
-
-  // handlers
-  const menuHandler = (e) => {
-    hamburgerBtn.current.classList.toggle(styles["open"]);
-    bodyElm.classList.toggle("no-scroll")
-    setOpenMenu((prevValue) => !prevValue);
-  };
-
+function HamburgerBtn({menuHandler ,hamburgerRef}) {
   return (
     <button
       id="menu-btn"
       className={`z-30 self-center pr-16 block md:hidden focus:outline-none ${styles["hamburger"]}`}
       onClick={menuHandler}
-      ref={hamburgerBtn}
+      ref={hamburgerRef}
     >
       <span className={`${styles["hamburger-top"]} dark:bg-white`}></span>
       <span className={`${styles["hamburger-middle"]} dark:bg-white`}></span>
