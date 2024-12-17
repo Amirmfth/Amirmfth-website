@@ -46,7 +46,7 @@ function MobileMenu({ openMenu, menuHandler }) {
         onClick={menuHandler}
         className="w-full py-3 text-left font-semibold text-lg"
       >
-        <Link to={"/about-me"}>Aboute me</Link>
+        <Link to={"/about-me"}>About me</Link>
       </div>
       {/* TimeBox */}
       <div className="flex w-full flex-col justify-between">

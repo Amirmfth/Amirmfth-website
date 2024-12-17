@@ -28,7 +28,7 @@ function FooterNavBar() {
         </div>
         {/* Item 4 */}
         <div className="group">
-          <Link to={"/about-me"}>Aboute me</Link>
+          <Link to={"/about-me"}>About me</Link>
           <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
         </div>
       </div>
