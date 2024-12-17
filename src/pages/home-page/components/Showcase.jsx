@@ -6,13 +6,19 @@ function Showcase() {
       {/* Showcase container */}
       <div className="max-w-screen-lg flex flex-col mx-auto items-center px-4 py-10 space-y-5">
         {/* Title */}
-        <h2 className="mb-6 text-3xl font-semibold tracking-wide">
+        <h2
+          data-aos="fade-up"
+          className="mb-6 text-3xl font-semibold tracking-wide"
+        >
           Selected works
         </h2>
         {/* Work container 1 */}
         <div className="flex flex-col items-center justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-5">
           {/* Work 1 */}
-          <div className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black">
+          <div
+            data-aos="fade-up"
+            className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black"
+          >
             {/* Image container */}
             <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto space-x-4 bg-gradient-to-br  from-gray-200 to-slate-500  rounded-2xl  ">
               <img
@@ -44,7 +50,10 @@ function Showcase() {
             </div>
           </div>
           {/* Work 2 */}
-          <div className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black">
+          <div
+            data-aos="fade-up"
+            className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black"
+          >
             {/* Image container */}
             <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto space-x-4 bg-gradient-to-br  from-gray-200 to-slate-500  rounded-2xl  ">
               <img
@@ -61,13 +70,13 @@ function Showcase() {
             {/* Content */}
             <div className="flex flex-col  pt-5 px-3 space-y-5 rounded-t-2xl duration-300 bg-white dark:bg-black md:h-48 md:group-hover:-translate-y-20">
               <h2 className="text-3xl font-semibold">Bookmark</h2>
-              <h4 className="text-xl font-semibold">
+              <h4 className="text-lg font-semibold">
                 Keep your favorite website close(design only)
               </h4>
               <p className="opacity-60">
-                Organize your favorite websites. Open a new Browser tab and see
-                your sites load instantly. Engaging design and simple UX make
-                this tool a better option than any other.
+                Open a new Browser tab and see your sites load instantly.
+                Engaging design and simple UX make this tool a better option
+                than any other.
               </p>
               <a
                 href="https://amirmfth-bookmark-website.vercel.app"
@@ -82,7 +91,10 @@ function Showcase() {
         {/* Work container 2 */}
         <div className="flex flex-col items-center justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-5">
           {/* Work 3 */}
-          <div className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black">
+          <div
+            data-aos="fade-up"
+            className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black"
+          >
             {/* Image container */}
             <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto space-x-4 bg-gradient-to-br  from-gray-200 to-slate-500  rounded-2xl  ">
               <img
@@ -110,7 +122,10 @@ function Showcase() {
             </div>
           </div>
           {/* Work 4 */}
-          <div className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black">
+          <div
+            data-aos="fade-up"
+            className="group overflow-y-hidden flex flex-col p-5 space-y-5 rounded-3xl bg-white md:w-1/2 dark:bg-black"
+          >
             {/* Image container */}
             <div className="flex items-center justify-center w-full h-60 pt-2 mx-auto space-x-4 bg-gradient-to-br  from-gray-200 to-slate-500  rounded-2xl  ">
               <img
