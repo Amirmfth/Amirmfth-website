@@ -22,23 +22,18 @@ function MobileMenu({ openMenu ,menuHandler }) {
       <div onClick={menuHandler} className="w-full py-3 text-left font-semibold text-lg">
         <Link to={"/home"}>Home</Link>
       </div>
+      
       {/* Item 2 */}
-      <div onClick={menuHandler} className="w-full py-3 text-left font-semibold text-lg">
-        <a href="#download" className="block hover:text-softRed">
-          Education
-        </a>
-      </div>
-      {/* Item 3 */}
       <div onClick={menuHandler} className="w-full py-3 text-left font-semibold text-lg">
         <Link to={"/services"}>Services</Link>
       </div>
-      {/* Item 4 */}
+      {/* Item 3 */}
       <div onClick={menuHandler} className="w-full py-3 text-left font-semibold text-lg">
         <a href="#" className="block hover:text-softRed">
           Show case
         </a>
       </div>
-      {/* Item 5 */}
+      {/* Item 4 */}
       <div onClick={menuHandler} className="w-full py-3 text-left font-semibold text-lg">
         <a href="#" className="block hover:text-softRed">
           About me
