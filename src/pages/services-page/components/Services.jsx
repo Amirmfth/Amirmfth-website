@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Services() {
   return (
     <section className=" bg-light-gray dark:bg-dark-gray">
-      <div className="relative container flex flex-col mx-auto px-8 pt-10 pb-32
+      <div className="relative max-w-screen-lg flex flex-col mx-auto px-8 pt-10 pb-32
        space-y-10 md:flex-row md:space-y-0 md:space-x-24 ">
         {/* Header */}
         <div className="h-fit flex flex-col space-y-6 md:w-1/2 md:sticky md:top-40">

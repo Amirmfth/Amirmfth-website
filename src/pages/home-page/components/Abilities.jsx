@@ -10,7 +10,7 @@ import { faWindowRestore } from "@fortawesome/free-regular-svg-icons";
 function Abilities() {
   return (
     <section id="abilities" className=" bg-light-gray dark:bg-dark-gray">
-      <div className="container flex flex-col mx-auto space-y-10 px-4 py-24">
+      <div className="max-w-screen-lg flex flex-col mx-auto space-y-10 px-4 py-24">
         {/*Section Header */}
         <div
           data-aos="fade-up"

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function EduWork() {
   return (
     <section id="edu-work" className="bg-light-gray dark:bg-dark-gray">
-      <div data-aos="fade-up" className="container flex flex-col pt-16 px-4 space-y-10 md:flex-row md:space-y-0 md:mx-auto ">
+      <div data-aos="fade-up" className="max-w-screen-lg flex flex-col pt-16 px-4 space-y-10 md:flex-row md:space-y-0 md:mx-auto ">
         {/* Education container */}
         <div className="flex flex-col space-y-5 md:w-1/2 ">
           {/* Header */}
