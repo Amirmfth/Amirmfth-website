@@ -11,7 +11,7 @@ function Hero() {
       {/* Hero container */}
       <div
         data-aos="fade-up"
-        className="max-w-screen-lg flex flex-col items-start mx-auto px-4 space-y-12 md:flex-row md:space-y-0 md:space-x-20 "
+        className="max-w-screen-lg flex flex-col items-start mx-auto pb-10 px-4 space-y-12 md:flex-row md:space-y-0 md:space-x-20 "
       >
         {/* Profile Image */}
         <div className="flex items-center justify-center">
