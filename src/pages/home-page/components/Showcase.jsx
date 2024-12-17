@@ -27,7 +27,7 @@ function Showcase() {
               />
             </div>
             {/* Content */}
-            <div className="h-48  flex flex-col pt-5 px-3 space-y-5 duration-300 bg-white dark:bg-black rounded-t-2xl md:group-hover:-translate-y-20">
+            <div className="flex flex-col pt-5 px-3 space-y-5 rounded-t-2xl duration-300 bg-white dark:bg-black md:h-48 md:group-hover:-translate-y-20">
               <h2 className="text-3xl font-semibold">Bloggy</h2>
               <h4 className="text-xl font-semibold">A Blogging Website</h4>
               <p className="opacity-60">
@@ -59,15 +59,15 @@ function Showcase() {
               />
             </div>
             {/* Content */}
-            <div className="h-48  flex flex-col pt-5 px-3 space-y-5 duration-300 bg-white dark:bg-black rounded-t-2xl md:group-hover:-translate-y-20">
+            <div className="flex flex-col  pt-5 px-3 space-y-5 rounded-t-2xl duration-300 bg-white dark:bg-black md:h-48 md:group-hover:-translate-y-20">
               <h2 className="text-3xl font-semibold">Bookmark</h2>
               <h4 className="text-xl font-semibold">
                 Keep your favorite website close(design only)
               </h4>
               <p className="opacity-60">
                 Organize your favorite websites. Open a new Browser tab and see
-                your sites load instantly. Engaging design and simple UX
-                make this tool a better option than any other.
+                your sites load instantly. Engaging design and simple UX make
+                this tool a better option than any other.
               </p>
               <a
                 href="https://amirmfth-bookmark-website.vercel.app"
@@ -92,7 +92,7 @@ function Showcase() {
               />
             </div>
             {/* Content */}
-            <div className="h-48  flex flex-col pt-5 px-3 space-y-5 duration-300 bg-white dark:bg-black rounded-t-2xl md:group-hover:-translate-y-20">
+            <div className="flex flex-col  pt-5 px-3 space-y-5 rounded-t-2xl duration-300 bg-white dark:bg-black md:h-48 md:group-hover:-translate-y-20">
               <h2 className="text-3xl font-semibold">WebStore</h2>
               <h4 className="text-xl font-semibold">Shopping Application</h4>
               <p className="opacity-60">
@@ -125,7 +125,7 @@ function Showcase() {
               />
             </div>
             {/* Content */}
-            <div className="h-48  flex flex-col pt-5 px-3 space-y-5 duration-300 bg-white dark:bg-black rounded-t-2xl md:group-hover:-translate-y-20">
+            <div className="flex flex-col  pt-5 px-3 space-y-5 rounded-t-2xl duration-300 bg-white dark:bg-black md:h-48 md:group-hover:-translate-y-20">
               <h2 className="text-3xl font-semibold">CryptoLog</h2>
               <h4 className="text-xl font-semibold">
                 CryptoMarket in your pocket
