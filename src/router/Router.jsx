@@ -11,6 +11,8 @@ function Router() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/about-me" element={<AboutMePage />} />
+      <Route path="/*" element={<Navigate to={"/home"} />} />
+
     </Routes>
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SwitchThemeBtn from "./SwitchThemeBtn";
 import TimeBox from "./TimeBox";
 
@@ -9,9 +10,11 @@ function NavButtons() {
         <TimeBox />
       </div>
       <SwitchThemeBtn />
-      <button className="p-3 text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">
-        Contact Me
+      
+        <Link to={"/about-me#contact-me"}>
+        <button className="p-3 text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">Contact Me
       </button>
+        </Link>
     </div>
   );
 }

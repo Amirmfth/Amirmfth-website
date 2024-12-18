@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TimeBox from "../navbar/TimeBox";
 
 function ContactMe() {
@@ -7,10 +8,12 @@ function ContactMe() {
       <h1 className="text-center text-3xl font-semibold ">
         Let's talk with me
       </h1>
-      <div className="flex flex-col space-y-4 pt-6">
-        <button className="px-5 py-3 w-fit self-center text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">
+      <div className="flex flex-col items-center space-y-4 pt-6">
+        <Link to={"/about-me#contact-me"}>
+        <button className="px-5 py-3 w-fit text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">
           Talk with me
         </button>
+        </Link>
         <div className="flex items-center space-x-3">
           <span className="opacity-60">My local time</span>
           <TimeBox />

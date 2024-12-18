@@ -38,7 +38,7 @@ function MobileMenu({ openMenu, menuHandler }) {
         className="w-full py-3 text-left font-semibold text-lg"
       >
         <a href="#" className="block hover:text-softRed">
-          Show case
+          Showcase
         </a>
       </div>
       {/* Item 4 */}
@@ -56,9 +56,11 @@ function MobileMenu({ openMenu, menuHandler }) {
       {/* Buttons */}
       <div className="flex  w-full justify-between items-center px-2 py-4 rounded-2xl border-2 border-black dark:border-white">
         <SwitchThemeBtn />
-        <button className="p-3 text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">
+        <Link to={"/about-me#contact-me"}>
+        <button onClick={menuHandler} className="p-3 text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">
           Contact Me
         </button>
+        </Link>
       </div>
     </div>
   );

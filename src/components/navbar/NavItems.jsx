@@ -22,7 +22,7 @@ function Navitems() {
       </div>
       {/* Item 3 */}
       <div className="group">
-        <a href="#">Show case</a>
+        <a href="#">Showcase</a>
         <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
       </div>
       {/* Item 4 */}
