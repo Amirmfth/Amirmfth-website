@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -29,7 +30,7 @@ function Hero() {
           {/* Buttons */}
           <div className="flex space-x-4">
             <button className="px-4 py-2 text-white bg-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-white dark:text-black ">
-              Talk with me
+              <Link to={"/about-me#contact-me"}>Talk with me</Link>
             </button>
             <button className="px-4 py-2 border border-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-black dark:text-white dark:border-white ">
               <a href="#">See my work</a>

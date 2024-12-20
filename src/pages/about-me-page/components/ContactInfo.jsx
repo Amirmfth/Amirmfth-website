@@ -11,7 +11,10 @@ function ContactInfo() {
   return (
     <section id="contact-me" className="bg-light-gray dark:bg-dark-gray">
       {/* Contact info container */}
-      <div className="max-w-screen-lg flex flex-col mx-auto px-4 space-y-12 py-20">
+      <div
+        data-aos="fade-up"
+        className="max-w-screen-lg flex flex-col mx-auto px-4 space-y-12 py-20"
+      >
         {/* Header */}
         <h2 className="text-3xl font-semibold md:text-5xl">
           You can contact me via:
@@ -19,7 +22,10 @@ function ContactInfo() {
         {/* Social media */}
         <div className="flex flex-col space-y-5 justify-around md:flex-row md:space-y-0 md:space-x-5">
           {/* container 1 */}
-          <div className="  flex flex-col space-y-5 bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white md:w-1/2 p-6 ">
+          <div
+            data-aos="fade-up"
+            className="  flex flex-col space-y-5 bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white md:w-1/2 p-6 "
+          >
             {/* Item 1 */}
             <a
               href="https://instagram.com/delay_z_one"
@@ -64,7 +70,10 @@ function ContactInfo() {
             </a>
           </div>
           {/* Container 2 */}
-          <div className=" flex flex-col space-y-5 bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white md:w-1/2 p-6 ">
+          <div
+            data-aos="fade-up"
+            className=" flex flex-col space-y-5 bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white md:w-1/2 p-6 "
+          >
             {/* Item 1 */}
             <a
               href="https://t.me/delay_z_one"
@@ -99,7 +108,7 @@ function ContactInfo() {
               className="relative p-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl hover:scale-105 duration-150"
               target="_blank"
             >
-                <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
+              <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
                 Phone
               </span>
               <div className="flex items-center space-x-3 p-2">
