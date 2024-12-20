@@ -33,7 +33,9 @@ function Hero() {
               <Link to={"/about-me#contact-me"}>Talk with me</Link>
             </button>
             <button className="px-4 py-2 border border-black rounded-lg hover:opacity-70 hover:scale-105 dark:bg-black dark:text-white dark:border-white ">
-              <a href="#">See my work</a>
+              <Link to={"/about-me#contact-me"}>
+              See my work
+              </Link>
             </button>
           </div>
         </div>
