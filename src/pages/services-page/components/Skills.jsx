@@ -11,11 +11,17 @@ function Skills() {
           My skills and the tools I use
         </h2>
         {/* Skills container  */}
-        <div className="w-full flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-10">
+        <div
+          data-aos="fade-up"
+          className="w-full flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-10"
+        >
           {/* Skills subcontainer 1 */}
           <div className="flex flex-col space-y-10 md:w-1/2">
             {/* JS */}
-            <div className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white p-6">
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white p-6"
+            >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
                 Javascript
@@ -90,7 +96,10 @@ function Skills() {
               </div>
             </div>
             {/* Git */}
-            <div className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6">
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
                 Git
@@ -130,7 +139,10 @@ function Skills() {
             </div>
 
             {/* CSS framework */}
-            <div className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6">
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
                 CSS Frameworks
@@ -160,7 +172,10 @@ function Skills() {
           {/* Skills subcontainer 1 */}
           <div className="flex flex-col space-y-10 md:w-1/2">
             {/* React */}
-            <div className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6">
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
                 React
@@ -211,7 +226,10 @@ function Skills() {
               </div>
             </div>
             {/* HTML */}
-            <div className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6">
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
                 HTML
@@ -237,8 +255,11 @@ function Skills() {
                 Form & Table creation
               </div>
             </div>
-                        {/* CSS */}
-                        <div className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6">
+            {/* CSS */}
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
                 CSS
