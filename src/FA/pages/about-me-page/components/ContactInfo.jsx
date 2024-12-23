@@ -17,10 +17,10 @@ function ContactInfo() {
       >
         {/* Header */}
         <h2 className="text-3xl font-semibold md:text-5xl">
-          You can contact me via:
+          راه های ارتباط با من:
         </h2>
         {/* Social media */}
-        <div className="flex flex-col space-y-5 justify-around md:flex-row md:space-y-0 md:space-x-5">
+        <div className="flex flex-col space-y-5 justify-around md:flex-row md:space-y-0 md:space-x-5 md:space-x-reverse">
           {/* container 1 */}
           <div
             data-aos="fade-up"
@@ -33,9 +33,9 @@ function ContactInfo() {
               target="_blank"
             >
               <span className="absolute right-10 -top-4 opacity-60 rounded-xl p-1">
-                Instagram
+                اینستاگرام
               </span>
-              <div className="flex items-center space-x-3 p-2">
+              <div className="flex items-center space-x-3 space-x-reverse p-2">
                 <FontAwesomeIcon size="2x" icon={faInstagram} />
                 <h4 className="text-xl">@delay_z_one</h4>
               </div>
@@ -47,9 +47,9 @@ function ContactInfo() {
               target="_blank"
             >
               <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
-                LinkedIn
+                لینکدین
               </span>
-              <div className="flex items-center space-x-3 p-2">
+              <div className="flex items-center space-x-3 space-x-reverse p-2">
                 <FontAwesomeIcon size="2x" icon={faLinkedin} />
                 <h4 className="text-xl">amir-mohammad-fatahi</h4>
               </div>
@@ -61,9 +61,9 @@ function ContactInfo() {
               target="_blank"
             >
               <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
-                Email
+                ایمیل
               </span>
-              <div className="flex items-center space-x-3 p-2">
+              <div className="flex items-center space-x-3 space-x-reverse p-2">
                 <FontAwesomeIcon size="2x" icon={faAt} />
                 <h4 className="text-xl">amirmf831380@gmail.com</h4>
               </div>
@@ -81,9 +81,9 @@ function ContactInfo() {
               target="_blank"
             >
               <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
-                Telegram
+                تلگرام
               </span>
-              <div className="flex items-center space-x-3 p-2">
+              <div className="flex items-center space-x-3 space-x-reverse p-2">
                 <FontAwesomeIcon size="2x" icon={faTelegram} />
                 <h4 className="text-xl">delay_z_one</h4>
               </div>
@@ -95,9 +95,9 @@ function ContactInfo() {
               target="_blank"
             >
               <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
-                Whatsapp
+                واتسآپ
               </span>
-              <div className="flex items-center space-x-3 p-2">
+              <div className="flex items-center space-x-3 space-x-reverse p-2">
                 <FontAwesomeIcon size="2x" icon={faWhatsapp} />
                 <h4 className="text-xl">Amirmfth</h4>
               </div>
@@ -109,11 +109,11 @@ function ContactInfo() {
               target="_blank"
             >
               <span className="absolute  right-10 -top-4 opacity-60 rounded-xl p-1">
-                Phone
+                تلفن همراه
               </span>
-              <div className="flex items-center space-x-3 p-2">
+              <div className="flex items-center space-x-3 space-x-reverse p-2">
                 <FontAwesomeIcon size="2x" icon={faPhone} />
-                <h4 className="text-xl">+98-939-833-2265</h4>
+                <h4 className="text-xl">98-939-833-2265+</h4>
               </div>
             </a>
           </div>

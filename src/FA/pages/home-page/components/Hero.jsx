@@ -15,7 +15,7 @@ function Hero() {
           />
           {/* Name */}
           <h1 className="text-3xl font-semibold text-right md:text-6xl">
-            سلام! من امیر محمد فتاحی هستم
+            سلام! من امیرمحمد فتاحی هستم
           </h1>
         </div>
         {/* description & buttons */}
