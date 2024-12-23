@@ -1,5 +1,5 @@
 // Hooks
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // Libraries
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -23,9 +23,9 @@ function App() {
   return (
     <div className="min-h-screen dark:bg-black dark:text-white">
       <BrowserRouter>
-        <Layout>
-          <Router />
-        </Layout>
+          <Layout>
+            <Router />
+          </Layout>
       </BrowserRouter>
       {/* Fixed button */}
       <button

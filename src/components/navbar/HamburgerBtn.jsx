@@ -1,10 +1,11 @@
 import styles from "./HamburgerBtn.module.css";
 
 function HamburgerBtn({menuHandler ,hamburgerRef}) {
+  const lang = localStorage.getItem("lang");
   return (
     <button
       id="menu-btn"
-      className={`z-30 self-center pr-16 block md:hidden focus:outline-none ${styles["hamburger"]}`}
+      className={`z-30 self-center  ${lang === "en" ? "pr-16" : "ml-10"} block md:hidden focus:outline-none ${styles["hamburger"]}`}
       onClick={menuHandler}
       ref={hamburgerRef}
     >

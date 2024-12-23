@@ -7,6 +7,7 @@ import Navitems from "./NavItems";
 import styles from "./HamburgerBtn.module.css";
 
 function Navbar() {
+  
   const [openMenu, setOpenMenu] = useState(false)
 
   const bodyElm = document.querySelector("body")

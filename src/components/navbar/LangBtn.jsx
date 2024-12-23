@@ -1,26 +1,25 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 function LangBtn() {
   const navigate = useNavigate();
   const htmlElm = document.querySelector("html");
-  const [langState, setLangState] = useState(null);
+  const [lang, setLang] = useState(null);
 
   useEffect(() => {
     if (localStorage.getItem("lang")) {
       const lang = localStorage.getItem("lang");
-      setLangState(lang);
+      setLang(lang);
       htmlElm.lang = lang;
       htmlElm.dir = lang === "fa" ? "rtl" : "ltr";
-      navigate(`/${lang}`);
+      navigate(`./${lang}`);
     } else {
       localStorage.setItem("lang", "en");
       localStorage.getItem("lang");
-      setLangState("en");
+      setLang("en");
       htmlElm.lang = "en";
       htmlElm.dir = "ltr";
-      navigate("/en");
+      navigate("./en");
     }
   }, []);
   // handler
@@ -29,20 +28,28 @@ function LangBtn() {
       htmlElm.lang = "en";
       htmlElm.dir = "ltr";
       localStorage.setItem("lang", "en");
-      setLangState("en");
+      setLang("en");
+      navigate("./en");
+      window.location.reload();
     } else if (e.target.innerText === "FA") {
       htmlElm.lang = "fa";
-      htmlElm.dir = "rlf";
+      htmlElm.dir = "rtl";
       localStorage.setItem("lang", "fa");
-      setLangState("fa");
+      setLang("fa");
+      navigate("./fa");
+      window.location.reload();
     }
   };
   return (
-    <div className="flex items-center space-x-2 rounded-full bg-light-gray dark:bg-dark-gray p-1">
+    <div
+      className={`flex items-center space-x-2 ${
+        lang === "fa" ? "space-x-reverse" : ""
+      } rounded-full bg-light-gray dark:bg-dark-gray p-1`}
+    >
       <button
         onClick={langHandler}
         className={`px-4 py-2 text-sm font-semibold rounded-full ${
-          langState === "en" && "bg-white dark:bg-black"
+          lang === "en" && "bg-white dark:bg-black"
         }`}
       >
         EN
@@ -50,7 +57,7 @@ function LangBtn() {
       <button
         onClick={langHandler}
         className={`px-4 py-2 text-sm font-semibold rounded-full ${
-          langState === "fa" && "bg-white dark:bg-black"
+          lang === "fa" && "bg-white dark:bg-black"
         }`}
       >
         FA
