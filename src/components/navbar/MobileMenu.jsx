@@ -7,7 +7,7 @@ function MobileMenu({ openMenu, menuHandler }) {
   const lang = localStorage.getItem("lang");
   return (
     <>
-      {lang === " en" ? (
+      {lang === "en" ? (
         <div
           id="menu"
           className={`fixed inset-0 z-20 ${
