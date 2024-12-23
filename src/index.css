@@ -5,3 +5,31 @@
 .no-scroll {
     overflow: hidden;
 }
+
+@font-face {
+    font-family: "Qs_Iranyekan";
+    src: url("/public/assets/fonts/iranyekan/Qs_Iranyekan.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Qs_Iranyekan";
+    src: url("/public/assets/fonts/iranyekan/Qs_Iranyekan bold.ttf") format("truetype");
+    font-weight: semi-bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Qs_Iranyekan";
+    src: url("/public/assets/fonts/iranyekan/Qs_Iranyekan extrabold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Qs_Iranyekan";
+    src: url("/public/assets/fonts/iranyekan/Qs_Iranyekan medium.ttf") format("truetype");
+    font-weight: medium;
+    font-style: normal;
+}

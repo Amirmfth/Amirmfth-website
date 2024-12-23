@@ -25,7 +25,7 @@ function ContactMe() {
         </div>
       ) : (
         <div className="flex flex-col space-y-6 justify-center items-center">
-          <h3 className="text-center">پروژه ای داری؟</h3>
+          <h3 className="text-center">اگر پروژه ای داری؟</h3>
           <h1 className="text-center text-3xl font-semibold ">
             همین حالا با من صحبت کن
           </h1>

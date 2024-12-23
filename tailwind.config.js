@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
+        yekan: ["Qs_Iranyekan", "sans-serif"],
       },
     },
   },

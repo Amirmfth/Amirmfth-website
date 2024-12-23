@@ -31,7 +31,7 @@ function LangBtn() {
       setLang("en");
       navigate("./en");
       window.location.reload();
-    } else if (e.target.innerText === "FA") {
+    } else if (e.target.innerText === "فا") {
       htmlElm.lang = "fa";
       htmlElm.dir = "rtl";
       localStorage.setItem("lang", "fa");
@@ -48,7 +48,7 @@ function LangBtn() {
     >
       <button
         onClick={langHandler}
-        className={`px-4 py-2 text-sm font-semibold rounded-full ${
+        className={`w-1/2 px-4 py-2 text-sm font-semibold rounded-full ${
           lang === "en" && "bg-white dark:bg-black"
         }`}
       >
@@ -56,11 +56,11 @@ function LangBtn() {
       </button>
       <button
         onClick={langHandler}
-        className={`px-4 py-2 text-sm font-semibold rounded-full ${
-          lang === "fa" && "bg-white dark:bg-black"
+        className={`w-1/2 px-4 py-2 text-sm font-semibold rounded-full ${
+          lang === "fa" && "bg-white dark:bg-black" 
         }`}
       >
-        FA
+        فا
       </button>
     </div>
   );

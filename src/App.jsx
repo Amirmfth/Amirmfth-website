@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
+  const lang = localStorage.getItem("lang");
   useEffect(() => {
     Aos.init({
       once: true,
@@ -21,11 +22,15 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen dark:bg-black dark:text-white">
+    <div
+      className={`min-h-screen dark:bg-black dark:text-white ${
+        lang === "fa" ? "font-yekan" : ""
+      }`}
+    >
       <BrowserRouter>
-          <Layout>
-            <Router />
-          </Layout>
+        <Layout>
+          <Router />
+        </Layout>
       </BrowserRouter>
       {/* Fixed button */}
       <button
