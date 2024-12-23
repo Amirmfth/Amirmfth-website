@@ -103,7 +103,7 @@ function EduWork() {
               challenges, resulting in tangible outcome and measurable results.
             </p>
             <button className="w-fit py-3 px-8 text-black  rounded-2xl border-2 border-gray-300 hover:bg-black hover:text-white duration-150 dark:bg-black dark:text-white dark:hover:bg-white dark:hover:text-black ">
-              <Link to={"/showcase"}>See my work</Link>
+              <Link to={"/en/showcase"}>See my work</Link>
             </button>
           </div>
           <div className="flex flex-col space-y-14  md:w-7/12">

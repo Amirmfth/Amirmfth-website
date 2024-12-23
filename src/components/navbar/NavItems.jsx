@@ -12,12 +12,12 @@ function Navitems() {
       <div className="hidden space-x-8 md:flex text-lg ">
       {/* Item 1 */}
       <div className="group">
-        <Link to={"/home"} >Home</Link>
+        <Link to={"/en/home"} >Home</Link>
         <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
       </div>
       {/* Item 2 */}
       <div className="group">
-      <Link to={"/services"} >Services</Link>
+      <Link to={"/en/services"} >Services</Link>
         <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
       </div>
       {/* Item 3 */}
@@ -27,7 +27,7 @@ function Navitems() {
       </div>
       {/* Item 4 */}
       <div className="group">
-        <Link to={"/about-me"}>About me</Link>
+        <Link to={"/en/about-me"}>About me</Link>
         <div className="w-0 mx-auto duration-150 group-hover:border group-hover:border-black group-hover:w-2/3 dark:group-hover:border-white"></div>
       </div>
       </div>

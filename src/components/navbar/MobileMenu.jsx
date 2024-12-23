@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SwitchThemeBtn from "./SwitchThemeBtn";
 import TimeBox from "./TimeBox";
+import LangBtn from "./LangBtn";
 
 function MobileMenu({ openMenu, menuHandler }) {
   return (
@@ -23,14 +24,14 @@ function MobileMenu({ openMenu, menuHandler }) {
         onClick={menuHandler}
         className="w-full py-3 text-left font-semibold text-lg"
       >
-        <Link to={"/home"}>Home</Link>
+        <Link to={"/en/home"}>Home</Link>
       </div>
       {/* Item 2 */}
       <div
         onClick={menuHandler}
         className="w-full py-3 text-left font-semibold text-lg"
       >
-        <Link to={"/services"}>Services</Link>
+        <Link to={"/en/services"}>Services</Link>
       </div>
       {/* Item 3 */}
       <div
@@ -46,7 +47,7 @@ function MobileMenu({ openMenu, menuHandler }) {
         onClick={menuHandler}
         className="w-full py-3 text-left font-semibold text-lg"
       >
-        <Link to={"/about-me"}>About me</Link>
+        <Link to={"/en/about-me"}>About me</Link>
       </div>
       {/* TimeBox */}
       <div className="flex w-full flex-col justify-between">
@@ -56,10 +57,14 @@ function MobileMenu({ openMenu, menuHandler }) {
       {/* Buttons */}
       <div className="flex  w-full justify-between items-center px-2 py-4 rounded-2xl border-2 border-black dark:border-white">
         <SwitchThemeBtn />
-        <Link to={"/about-me#contact-me"}>
-        <button onClick={menuHandler} className="p-3 text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200">
-          Contact Me
-        </button>
+        <LangBtn />
+        <Link to={"/en/about-me#contact-me"}>
+          <button
+            onClick={menuHandler}
+            className="p-3 text-white  border-2 border-black rounded-xl bg-black hover:bg-white hover:text-black dark:bg-light-gray dark:border-light-gray dark:text-black dark:hover:bg-black dark:hover:text-light-gray duration-200"
+          >
+            Contact Me
+          </button>
         </Link>
       </div>
     </div>

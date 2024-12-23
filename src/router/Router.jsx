@@ -1,18 +1,25 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 // Pages
+// EN
 import HomePage from "../pages/home-page/HomePage";
 import ServicesPage from "../pages/services-page/ServicesPage";
 import AboutMePage from "../pages/about-me-page/AboutMePage";
+// FA
 
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to={"/home"} />} />
-      <Route path="/home" element={<HomePage />} />
-      <Route path="/services" element={<ServicesPage />} />
-      <Route path="/about-me" element={<AboutMePage />} />
-      <Route path="/*" element={<Navigate to={"/home"} />} />
-
+      <Route path="/" element={<Navigate to={"/en/home"} />} />
+      {/* EN */}
+      <Route path="/en/home" element={<HomePage />} />
+      <Route path="/en/services" element={<ServicesPage />} />
+      <Route path="/en/about-me" element={<AboutMePage />} />
+      <Route path="/*" element={<Navigate to={"/en/home"} />} />
+      {/* FA */}
+      {/* <Route path="/fa" element={<Navigate to={"/fa/home"} />} />
+      <Route path="/fa/home" element={<HomePage />} />
+      <Route path="/fa/services" element={<ServicesPage />} />
+      <Route path="/fa/about-me" element={<AboutMePage />} /> */}
     </Routes>
   );
 }
