@@ -17,82 +17,132 @@ function Skills() {
         >
           {/* Skills subcontainer 1 */}
           <div className="flex flex-col space-y-10 md:w-1/2">
-            {/* JS */}
+            {/* Next */}
             <div
               data-aos="fade-up"
-              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white p-6"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
             >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
-                Javascript
+                Next
+              </h4>
+              {/* Item 1 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                App Router
+              </div>
+              {/* item 2 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Server Components
+              </div>
+              {/* item 3 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Pages Router
+              </div>
+              {/* item 4 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Server Components
+              </div>
+              {/* item 5 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                API Routes
+              </div>
+              {/* item 6 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Middlewares
+              </div>
+              {/* item 7 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                SSR
+              </div>
+              {/* item 8 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                SSG
+              </div>
+              {/* item 9 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                ISR
+              </div>
+              {/* item 10 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Dynamic Routes
+              </div>
+              {/* item 11 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Layouts
+              </div>
+              {/* item 12 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Metadata
+              </div>
+              {/* item 13 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Image Opt
+              </div>
+              {/* item 14 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Font Opt
+              </div>
+              {/* item 15 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Authentication
+              </div>
+              {/* item 16 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Error Handling
+              </div>
+            </div>
+            {/* React */}
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
+              {/* name */}
+              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
+                React
               </h4>
               {/* Item 1 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                JS fundamentals
+                JSX
               </div>
-              {/* Item 2 */}
+              {/* item 2 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Variables & Data type
+                Components
               </div>
-              {/* Item 3 */}
+              {/* item 3 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Hoisting
+                Props & States
               </div>
-              {/* Item 4 */}
+              {/* item 4 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Operators & Expressions
+                Lifecycle methods
               </div>
-              {/* Item 5 */}
+              {/* item 5 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Control flow
+                Routing
               </div>
-              {/* Item 6 */}
+              {/* item 6 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Functions
+                Forms
               </div>
-              {/* Item 7 */}
+              {/* item 7 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Prototype
+                Testing
               </div>
-              {/* Item 8 */}
+              {/* item 8 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Closure
+                Hooks
               </div>
-              {/* Item 9 */}
+              {/* item 9 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                HOF
+                State managment
               </div>
-              {/* Item 10 */}
+              {/* item 10 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Arrays & Objects
+                Context api
               </div>
-              {/* Item 11 */}
+              {/* item 11 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                DOM manipulation
-              </div>
-              {/* Item 12 */}
-              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                RegEx
-              </div>
-              {/* Item 13 */}
-              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Events
-              </div>
-              {/* Item 14 */}
-              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                JSON & AJAX
-              </div>
-              {/* Item 15 */}
-              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                REST api
-              </div>
-              {/* Item 14 */}
-              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Async JS
-              </div>
-              {/* Item 14 */}
-              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                ES6+ features
+                Redux
               </div>
             </div>
             {/* Git */}
@@ -170,58 +220,82 @@ function Skills() {
           </div>
           {/* Skills subcontainer 1 */}
           <div className="flex flex-col space-y-10 md:w-1/2">
-            {/* React */}
+            {/* JS */}
             <div
               data-aos="fade-up"
-              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white p-6"
             >
               {/* name */}
               <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
-                React
+                Javascript
               </h4>
               {/* Item 1 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                JSX
+                JS fundamentals
               </div>
-              {/* item 2 */}
+              {/* Item 2 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Components
+                Variables & Data type
               </div>
-              {/* item 3 */}
+              {/* Item 3 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Props & States
+                Hoisting
               </div>
-              {/* item 4 */}
+              {/* Item 4 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Lifecycle methods
+                Operators & Expressions
               </div>
-              {/* item 5 */}
+              {/* Item 5 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Routing
+                Control flow
               </div>
-              {/* item 6 */}
+              {/* Item 6 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Forms
+                Functions
               </div>
-              {/* item 7 */}
+              {/* Item 7 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Testing
+                Prototype
               </div>
-              {/* item 8 */}
+              {/* Item 8 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Hooks
+                Closure
               </div>
-              {/* item 9 */}
+              {/* Item 9 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                State managment
+                HOF
               </div>
-              {/* item 10 */}
+              {/* Item 10 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Context api
+                Arrays & Objects
               </div>
-              {/* item 11 */}
+              {/* Item 11 */}
               <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Redux
+                DOM manipulation
+              </div>
+              {/* Item 12 */}
+              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                RegEx
+              </div>
+              {/* Item 13 */}
+              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Events
+              </div>
+              {/* Item 14 */}
+              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                JSON & AJAX
+              </div>
+              {/* Item 15 */}
+              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                REST api
+              </div>
+              {/* Item 14 */}
+              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Async JS
+              </div>
+              {/* Item 14 */}
+              <div className="p-3 mb-3 ml-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                ES6+ features
               </div>
             </div>
             {/* HTML */}
