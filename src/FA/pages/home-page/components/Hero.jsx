@@ -22,7 +22,7 @@ function Hero() {
         <div className="flex flex-col space-y-8">
           {/* Description */}
           <h2 className="text-2xl text-right md:text-5xl">
-            برنامه نویس React.js واقع در تهران، ایران
+            برنامه نویس Next.js واقع در تهران، ایران
           </h2>
           <p className="opacity-60 text-lg ">
             مشتاقانه مشغول خلق وبسایت های تک صفحه ای و کاملا کاربردی

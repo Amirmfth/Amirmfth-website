@@ -25,7 +25,7 @@ function Hero() {
         <div className="flex flex-col space-y-6 md:space-y-10">
           <h1 className="text-4xl font-semibold md:text-6xl">امیرمحمد فتاحی</h1>
           <h3 className="text-2xl font-semibold md:text-3xl">
-            برنامه نویس React.js واقع در تهران، ایران
+            برنامه نویس Next.js واقع در تهران، ایران
           </h3>
           <p className="opacity-60">
             مشتاقانه مشغول خلق وبسایت های تک صفحه ای و کاملا کاربردی

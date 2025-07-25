@@ -1,0 +1,41 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main # Or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18' # Use the Node.js version your project needs
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build Project
+      run: npm run build
+
+    - name: Deploy to VPS
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.VPS_SSH_HOST }}
+        username: ${{ secrets.VPS_SSH_USER }}
+        key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+        script: |
+          # Navigate to the project directory on the VPS
+          cd /root/amirmfth-website
+          # Pull the latest changes from GitHub
+          git pull
+          # Copy the newly built files to the web directory
+          cp -r dist/* /var/www/amirmfatahi.me/html/
+          # Set permissions just in case
+          chown -R www-data:www-data /var/www/amirmfatahi.me/html

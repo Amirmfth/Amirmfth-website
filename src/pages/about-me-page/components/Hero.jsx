@@ -25,7 +25,7 @@ function Hero() {
         <div className="flex flex-col space-y-6 md:space-y-10">
           <h1 className="text-4xl font-semibold md:text-6xl">Amir.M.Fatahi</h1>
           <h3 className="text-2xl font-semibold md:text-3xl">
-            A React.js developer based in Iran, Tehran.
+            A Next.js developer based in Iran, Tehran.
           </h3>
           <p className="opacity-60">
             Passionate creating SPA and fully functional websites

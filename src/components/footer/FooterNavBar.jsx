@@ -10,7 +10,7 @@ function FooterNavBar() {
           {/* Name */}
           <div className="flex items-center justify-center md:space-x-4">
             <h2 className="text-2xl font-semibold text-center">Fatahi</h2>
-            <p className="hidden opacity-80 md:block">React.js developer</p>
+            <p className="hidden opacity-80 md:block">Next.js developer</p>
           </div>
           {/* Items container */}
           <div className="flex flex-col text-lg space-y-6 items-center md:flex-row md:space-y-0 md:space-x-12 ">
@@ -41,7 +41,7 @@ function FooterNavBar() {
           {/* Name */}
           <div className="flex items-center justify-center md:space-x-4 md:space-x-reverse">
             <h2 className="text-2xl font-semibold text-center">فتاحی</h2>
-            <p className="hidden opacity-80 md:block">برنامه نویس React.js</p>
+            <p className="hidden opacity-80 md:block">برنامه نویس Next.js</p>
           </div>
           {/* Items container */}
           <div className="flex flex-col text-lg space-y-6 items-center md:flex-row md:space-y-0 md:space-x-12 md:space-x-reverse ">
