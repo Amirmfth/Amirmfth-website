@@ -17,6 +17,209 @@ function Skills() {
         >
           {/* Skills subcontainer 1 */}
           <div className="flex flex-col space-y-10 md:w-1/2">
+            {/* Next */}
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
+              {/* name */}
+              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
+                Next
+              </h4>
+              {/* Item 1 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                App Router
+              </div>
+              {/* item 2 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Server Components
+              </div>
+              {/* item 3 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Pages Router
+              </div>
+              {/* item 4 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Server Components
+              </div>
+              {/* item 5 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                API Routes
+              </div>
+              {/* item 6 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Middlewares
+              </div>
+              {/* item 7 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                SSR
+              </div>
+              {/* item 8 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                SSG
+              </div>
+              {/* item 9 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                ISR
+              </div>
+              {/* item 10 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Dynamic Routes
+              </div>
+              {/* item 11 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Layouts
+              </div>
+              {/* item 12 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Metadata
+              </div>
+              {/* item 13 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Image Opt
+              </div>
+              {/* item 14 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Font Opt
+              </div>
+              {/* item 15 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Authentication
+              </div>
+              {/* item 16 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Error Handling
+              </div>
+            </div>
+            {/* React */}
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
+              {/* name */}
+              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
+                React
+              </h4>
+              {/* Item 1 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                JSX
+              </div>
+              {/* item 2 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Components
+              </div>
+              {/* item 3 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Props & States
+              </div>
+              {/* item 4 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Lifecycle methods
+              </div>
+              {/* item 5 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Routing
+              </div>
+              {/* item 6 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Forms
+              </div>
+              {/* item 7 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Testing
+              </div>
+              {/* item 8 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Hooks
+              </div>
+              {/* item 9 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                State managment
+              </div>
+              {/* item 10 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Context api
+              </div>
+              {/* item 11 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Redux
+              </div>
+            </div>
+            {/* Git */}
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
+              {/* name */}
+              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
+                Git
+              </h4>
+              {/* Item 1 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Clone
+              </div>
+              {/* item 2 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Add
+              </div>
+              {/* item 3 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Commit
+              </div>
+              {/* item 4 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Push & Pull
+              </div>
+              {/* item 5 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Branch
+              </div>
+              {/* item 6 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Merge
+              </div>
+              {/* item 7 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Diff
+              </div>
+              {/* item 8 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Collabration
+              </div>
+            </div>
+            {/* CSS framework */}
+            <div
+              data-aos="fade-up"
+              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
+            >
+              {/* name */}
+              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
+                CSS Frameworks
+              </h4>
+              {/* Item 1 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Tailwind CSS
+              </div>
+              {/* item 2 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                SASS
+              </div>
+              {/* item 3 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Material UI
+              </div>
+              {/* item 4 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Ant design
+              </div>
+              {/* item 5 */}
+              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
+                Bootstrap
+              </div>
+            </div>
+          </div>
+          {/* Skills subcontainer 1 */}
+          <div className="flex flex-col space-y-10 md:w-1/2">
             {/* JS */}
             <div
               data-aos="fade-up"
@@ -93,136 +296,6 @@ function Skills() {
               {/* Item 14 */}
               <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
                 ES6+ features
-              </div>
-            </div>
-            {/* Git */}
-            <div
-              data-aos="fade-up"
-              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
-            >
-              {/* name */}
-              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
-                Git
-              </h4>
-              {/* Item 1 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Clone
-              </div>
-              {/* item 2 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Add
-              </div>
-              {/* item 3 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Commit
-              </div>
-              {/* item 4 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Push & Pull
-              </div>
-              {/* item 5 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Branch
-              </div>
-              {/* item 6 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Merge
-              </div>
-              {/* item 7 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Diff
-              </div>
-              {/* item 8 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Collabration
-              </div>
-            </div>
-
-            {/* CSS framework */}
-            <div
-              data-aos="fade-up"
-              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
-            >
-              {/* name */}
-              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
-                CSS Frameworks
-              </h4>
-              {/* Item 1 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Tailwind CSS
-              </div>
-              {/* item 2 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                SASS
-              </div>
-              {/* item 3 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Material UI
-              </div>
-              {/* item 4 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Ant design
-              </div>
-              {/* item 5 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Bootstrap
-              </div>
-            </div>
-          </div>
-          {/* Skills subcontainer 1 */}
-          <div className="flex flex-col space-y-10 md:w-1/2">
-            {/* React */}
-            <div
-              data-aos="fade-up"
-              className="relative flex flex-wrap bg-white  border-2 border-black rounded-xl dark:bg-black dark:border-white  p-6"
-            >
-              {/* name */}
-              <h4 className="absolute left-4 -top-4 px-2 bg-opacity-100 text-xl font-bold tracking-widest text-white bg-black  rounded-2xl dark:text-black dark:bg-white">
-                React
-              </h4>
-              {/* Item 1 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                JSX
-              </div>
-              {/* item 2 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Components
-              </div>
-              {/* item 3 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Props & States
-              </div>
-              {/* item 4 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Lifecycle methods
-              </div>
-              {/* item 5 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Routing
-              </div>
-              {/* item 6 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Forms
-              </div>
-              {/* item 7 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Testing
-              </div>
-              {/* item 8 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Hooks
-              </div>
-              {/* item 9 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                State managment
-              </div>
-              {/* item 10 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Context api
-              </div>
-              {/* item 11 */}
-              <div className="p-3 mb-3 mr-3 bg-light-gray text-black dark:bg-dark-gray dark:text-white rounded-xl">
-                Redux
               </div>
             </div>
             {/* HTML */}
