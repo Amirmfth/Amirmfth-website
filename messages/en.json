@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "resume": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Amir Mohammadi",
+    "title": "Frontend engineer crafting thoughtful experiences",
+    "cta": "View my work"
+  },
+  "about": {
+    "title": "About me",
+    "body": "I'm a frontend developer focused on building accessible, performant interfaces with React and Next.js. I enjoy translating complex ideas into simple, intuitive products."
+  },
+  "services": {
+    "title": "What I do",
+    "items": [
+      "Modern web applications with Next.js",
+      "Component systems with React and Tailwind",
+      "Internationalized experiences with next-intl"
+    ]
+  },
+  "cta": {
+    "download": "Download CV"
+  },
+  "cv": {
+    "name": "Amir Mohammadi",
+    "role": "Frontend Engineer",
+    "summary": "Engineer with experience in React, Next.js and building localized, responsive experiences.",
+    "skills": ["React", "Next.js", "TypeScript", "Tailwind", "Testing Library"],
+    "experience": [
+      {
+        "company": "Freelance",
+        "title": "Frontend Developer",
+        "years": "2021-Present",
+        "details": "Delivering responsive websites and design systems for clients across industries."
+      }
+    ],
+    "education": [
+      {
+        "school": "Computer Science",
+        "years": "2016-2020",
+        "details": "Coursework focused on web development and user experience."
+      }
+    ]
+  }
+}
